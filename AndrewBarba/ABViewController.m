@@ -7,6 +7,7 @@
 //
 
 #import "ABViewController.h"
+#import "ABAppDelegate.h"
 
 @interface ABViewController ()
 
@@ -14,16 +15,15 @@
 
 @implementation ABViewController
 
-- (void)viewDidLoad
+- (void)_trackEvent:(NSString *)event from:(NSString *)sender withValue:(NSNumber *)value
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [[ABAppDelegate gaiTracker] sendEventWithCategory:@"AndrewBarba" withAction:event withLabel:sender withValue:value];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)setTitle:(NSString *)title
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [super setTitle:title];
+    self.trackedViewName = title;
 }
 
 @end

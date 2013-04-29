@@ -6,8 +6,13 @@
 //  Copyright (c) 2013 Andrew Barba. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "GAITrackedViewController.h"
 
-@interface ABViewController : UIViewController
+@interface ABViewController : GAITrackedViewController
+
+/**
+ *  Track Event
+ */
+- (void)_trackEvent:(NSString *)event from:(NSString *)sender withValue:(NSNumber *)value;
 
 @end
