@@ -27,6 +27,7 @@
     [super viewDidAppear:animated];
     ABDispatchAfter(0.3, ^{
         [self animatePictures:^{
+            [self trackEvent:@"Loading Animation Complete" withValue:nil];
             [self.pictureContainerView removeFromSuperview];
         }];
     });

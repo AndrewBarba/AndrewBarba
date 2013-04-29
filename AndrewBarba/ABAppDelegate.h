@@ -12,6 +12,4 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-+ (id<GAITracker>)gaiTracker;
-
 @end

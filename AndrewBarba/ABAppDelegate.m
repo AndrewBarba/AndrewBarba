@@ -7,33 +7,25 @@
 //
 
 #import "ABAppDelegate.h"
-#import "ABUIService.h"
 
 @interface ABAppDelegate()
-@property (nonatomic, strong) id <GAITracker> gaiTracker;
+
 @end
 
 @implementation ABAppDelegate
 
-+ (id<GAITracker>)gaiTracker
-{
-    return [(ABAppDelegate *)[[UIApplication sharedApplication] delegate] gaiTracker];
-}
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [GAI sharedInstance].trackUncaughtExceptions = YES;
-    [GAI sharedInstance].dispatchInterval = 0;
-    self.gaiTracker = [[GAI sharedInstance] trackerWithTrackingId:@"UA-40503557-1"];
     [self _loadSharedInstances];
     return YES;
 }
 
 /**
- * Loads shared instances early on to alter UI before the user sees anything
+ * Loads shared instances early on so they can perform setup
  */
 - (void)_loadSharedInstances
 {
+    [ABTrackingService sharedInstance];
     [ABUIService sharedInstance];
 }
 							

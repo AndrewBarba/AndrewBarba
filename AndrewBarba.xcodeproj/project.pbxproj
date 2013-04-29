@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B85011B3172EB7C700596A04 /* ABTrackingService.m in Sources */ = {isa = PBXBuildFile; fileRef = B85011B2172EB7C700596A04 /* ABTrackingService.m */; };
 		B88D30FF172E117B00FA1141 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88D30FE172E117B00FA1141 /* UIKit.framework */; };
 		B88D3101172E117B00FA1141 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88D3100172E117B00FA1141 /* Foundation.framework */; };
 		B88D3103172E117B00FA1141 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88D3102172E117B00FA1141 /* CoreGraphics.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B85011B1172EB7C700596A04 /* ABTrackingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTrackingService.h; sourceTree = "<group>"; };
+		B85011B2172EB7C700596A04 /* ABTrackingService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTrackingService.m; sourceTree = "<group>"; };
 		B88D30FB172E117B00FA1141 /* AndrewBarba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndrewBarba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88D30FE172E117B00FA1141 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B88D3100172E117B00FA1141 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -215,6 +218,8 @@
 			children = (
 				B88D3131172E147300FA1141 /* ABUIService.h */,
 				B88D3132172E147300FA1141 /* ABUIService.m */,
+				B85011B1172EB7C700596A04 /* ABTrackingService.h */,
+				B85011B2172EB7C700596A04 /* ABTrackingService.m */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -354,6 +359,7 @@
 				B88D3140172E176000FA1141 /* ABLoadingViewController.m in Sources */,
 				B88D3144172E180B00FA1141 /* ABLoadingImageView.m in Sources */,
 				B88D314D172E1D5C00FA1141 /* AB.m in Sources */,
+				B85011B3172EB7C700596A04 /* ABTrackingService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +490,7 @@
 				B88D3120172E117C00FA1141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

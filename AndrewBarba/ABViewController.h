@@ -11,8 +11,19 @@
 @interface ABViewController : GAITrackedViewController
 
 /**
- *  Track Event
+ *  Track Event from this controller
  */
-- (void)_trackEvent:(NSString *)event from:(NSString *)sender withValue:(NSNumber *)value;
+- (void)trackEvent:(NSString *)event withValue:(NSNumber *)value;
+
+/**
+ *  Toggle Swipe Navigation. Enabled by default
+ */
+- (void)disableSwipeNavigation;
+- (void)enableSwipeNavigation;
+
+/**
+ *  Finds the first scrollView in the controllers main view and scrolls it to the top
+ */
+- (void)scrollToTop;
 
 @end
