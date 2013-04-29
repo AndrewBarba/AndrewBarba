@@ -14,8 +14,6 @@
 		B88D310B172E117B00FA1141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B88D310A172E117B00FA1141 /* main.m */; };
 		B88D310F172E117B00FA1141 /* ABAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B88D310E172E117B00FA1141 /* ABAppDelegate.m */; };
 		B88D3111172E117B00FA1141 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B88D3110172E117B00FA1141 /* Default.png */; };
-		B88D3113172E117B00FA1141 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88D3112172E117B00FA1141 /* Default@2x.png */; };
-		B88D3115172E117B00FA1141 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88D3114172E117B00FA1141 /* Default-568h@2x.png */; };
 		B88D3118172E117B00FA1141 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88D3116172E117B00FA1141 /* MainStoryboard.storyboard */; };
 		B88D3126172E126D00FA1141 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B88D3125172E126D00FA1141 /* libGoogleAnalytics.a */; };
 		B88D312E172E12DE00FA1141 /* ABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88D312D172E12DE00FA1141 /* ABViewController.m */; };
@@ -36,7 +34,6 @@
 		B88D315B172E290E00FA1141 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = B88D3154172E290E00FA1141 /* 6.png */; };
 		B88D315C172E290E00FA1141 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = B88D3155172E290E00FA1141 /* 7.png */; };
 		B88D315E172E299B00FA1141 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88D315D172E299B00FA1141 /* Default@2x.png */; };
-		B88D3160172E29CF00FA1141 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B88D315F172E29CF00FA1141 /* Default.png */; };
 		B88D3162172E2A0900FA1141 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88D3161172E2A0900FA1141 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -85,9 +82,9 @@
 		B88D3153172E290E00FA1141 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		B88D3154172E290E00FA1141 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		B88D3155172E290E00FA1141 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
-		B88D315D172E299B00FA1141 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		B88D315F172E29CF00FA1141 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		B88D3161172E2A0900FA1141 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B88D315D172E299B00FA1141 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		B88D315F172E29CF00FA1141 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		B88D3161172E2A0900FA1141 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +108,6 @@
 		B88D30F2172E117B00FA1141 = {
 			isa = PBXGroup;
 			children = (
-				B88D3161172E2A0900FA1141 /* Default-568h@2x.png */,
-				B88D315F172E29CF00FA1141 /* Default.png */,
-				B88D315D172E299B00FA1141 /* Default@2x.png */,
 				B88D3104172E117B00FA1141 /* AndrewBarba */,
 				B88D30FD172E117B00FA1141 /* Frameworks */,
 				B88D30FC172E117B00FA1141 /* Products */,
@@ -161,6 +155,9 @@
 		B88D3105172E117B00FA1141 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B88D3161172E2A0900FA1141 /* Default-568h@2x.png */,
+				B88D315F172E29CF00FA1141 /* Default.png */,
+				B88D315D172E299B00FA1141 /* Default@2x.png */,
 				B88D3106172E117B00FA1141 /* AndrewBarba-Info.plist */,
 				B88D3107172E117B00FA1141 /* InfoPlist.strings */,
 				B88D310A172E117B00FA1141 /* main.m */,
@@ -328,8 +325,6 @@
 			files = (
 				B88D3109172E117B00FA1141 /* InfoPlist.strings in Resources */,
 				B88D3111172E117B00FA1141 /* Default.png in Resources */,
-				B88D3113172E117B00FA1141 /* Default@2x.png in Resources */,
-				B88D3115172E117B00FA1141 /* Default-568h@2x.png in Resources */,
 				B88D3118172E117B00FA1141 /* MainStoryboard.storyboard in Resources */,
 				B88D3156172E290E00FA1141 /* 1.png in Resources */,
 				B88D3157172E290E00FA1141 /* 2.png in Resources */,
@@ -339,7 +334,6 @@
 				B88D315B172E290E00FA1141 /* 6.png in Resources */,
 				B88D315C172E290E00FA1141 /* 7.png in Resources */,
 				B88D315E172E299B00FA1141 /* Default@2x.png in Resources */,
-				B88D3160172E29CF00FA1141 /* Default.png in Resources */,
 				B88D3162172E2A0900FA1141 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

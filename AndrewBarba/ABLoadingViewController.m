@@ -25,11 +25,11 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-//    ABDispatchAfter(0.5, ^{
-//        [self animatePictures:^{
-//            NSLog(@"Done!");
-//        }];
-//    });
+    ABDispatchAfter(0.3, ^{
+        [self animatePictures:^{
+            [self.pictureContainerView removeFromSuperview];
+        }];
+    });
 }
 
 - (void)animatePictures:(ABBlock)completion
