@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		B85011B3172EB7C700596A04 /* ABTrackingService.m in Sources */ = {isa = PBXBuildFile; fileRef = B85011B2172EB7C700596A04 /* ABTrackingService.m */; };
+		B85011B7172EC05400596A04 /* ABRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B85011B6172EC05400596A04 /* ABRootTabBarController.m */; };
+		B85011B8172EC2C100596A04 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B88D315F172E29CF00FA1141 /* Default.png */; };
 		B88D30FF172E117B00FA1141 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88D30FE172E117B00FA1141 /* UIKit.framework */; };
 		B88D3101172E117B00FA1141 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88D3100172E117B00FA1141 /* Foundation.framework */; };
 		B88D3103172E117B00FA1141 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88D3102172E117B00FA1141 /* CoreGraphics.framework */; };
 		B88D3109172E117B00FA1141 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B88D3107172E117B00FA1141 /* InfoPlist.strings */; };
 		B88D310B172E117B00FA1141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B88D310A172E117B00FA1141 /* main.m */; };
 		B88D310F172E117B00FA1141 /* ABAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B88D310E172E117B00FA1141 /* ABAppDelegate.m */; };
-		B88D3111172E117B00FA1141 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B88D3110172E117B00FA1141 /* Default.png */; };
 		B88D3118172E117B00FA1141 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88D3116172E117B00FA1141 /* MainStoryboard.storyboard */; };
 		B88D3126172E126D00FA1141 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B88D3125172E126D00FA1141 /* libGoogleAnalytics.a */; };
 		B88D312E172E12DE00FA1141 /* ABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88D312D172E12DE00FA1141 /* ABViewController.m */; };
 		B88D3133172E147300FA1141 /* ABUIService.m in Sources */ = {isa = PBXBuildFile; fileRef = B88D3132172E147300FA1141 /* ABUIService.m */; };
 		B88D3137172E160800FA1141 /* UIView+AB.m in Sources */ = {isa = PBXBuildFile; fileRef = B88D3136172E160800FA1141 /* UIView+AB.m */; };
-		B88D313C172E173F00FA1141 /* ABWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88D313B172E173F00FA1141 /* ABWelcomeViewController.m */; };
 		B88D3140172E176000FA1141 /* ABLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88D313F172E176000FA1141 /* ABLoadingViewController.m */; };
 		B88D3144172E180B00FA1141 /* ABLoadingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B88D3143172E180B00FA1141 /* ABLoadingImageView.m */; };
 		B88D3146172E182E00FA1141 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88D3145172E182E00FA1141 /* QuartzCore.framework */; };
@@ -41,6 +41,8 @@
 /* Begin PBXFileReference section */
 		B85011B1172EB7C700596A04 /* ABTrackingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTrackingService.h; sourceTree = "<group>"; };
 		B85011B2172EB7C700596A04 /* ABTrackingService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTrackingService.m; sourceTree = "<group>"; };
+		B85011B5172EC05400596A04 /* ABRootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABRootTabBarController.h; sourceTree = "<group>"; };
+		B85011B6172EC05400596A04 /* ABRootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABRootTabBarController.m; sourceTree = "<group>"; };
 		B88D30FB172E117B00FA1141 /* AndrewBarba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndrewBarba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88D30FE172E117B00FA1141 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B88D3100172E117B00FA1141 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,9 +53,6 @@
 		B88D310C172E117B00FA1141 /* AndrewBarba-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AndrewBarba-Prefix.pch"; sourceTree = "<group>"; };
 		B88D310D172E117B00FA1141 /* ABAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABAppDelegate.h; sourceTree = "<group>"; };
 		B88D310E172E117B00FA1141 /* ABAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABAppDelegate.m; sourceTree = "<group>"; };
-		B88D3110172E117B00FA1141 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		B88D3112172E117B00FA1141 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		B88D3114172E117B00FA1141 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B88D3117172E117B00FA1141 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B88D3125172E126D00FA1141 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = ../../../Downloads/GoogleAnalyticsiOS_2.0beta4/Library/libGoogleAnalytics.a; sourceTree = "<group>"; };
 		B88D3127172E128B00FA1141 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
@@ -67,8 +66,6 @@
 		B88D3132172E147300FA1141 /* ABUIService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUIService.m; sourceTree = "<group>"; };
 		B88D3135172E160800FA1141 /* UIView+AB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AB.h"; sourceTree = "<group>"; };
 		B88D3136172E160800FA1141 /* UIView+AB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AB.m"; sourceTree = "<group>"; };
-		B88D313A172E173F00FA1141 /* ABWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABWelcomeViewController.h; sourceTree = "<group>"; };
-		B88D313B172E173F00FA1141 /* ABWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABWelcomeViewController.m; sourceTree = "<group>"; };
 		B88D313E172E176000FA1141 /* ABLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABLoadingViewController.h; sourceTree = "<group>"; };
 		B88D313F172E176000FA1141 /* ABLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABLoadingViewController.m; sourceTree = "<group>"; };
 		B88D3142172E180B00FA1141 /* ABLoadingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABLoadingImageView.h; sourceTree = "<group>"; };
@@ -108,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B85011B4172EC03400596A04 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				B85011B5172EC05400596A04 /* ABRootTabBarController.h */,
+				B85011B6172EC05400596A04 /* ABRootTabBarController.m */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
 		B88D30F2172E117B00FA1141 = {
 			isa = PBXGroup;
 			children = (
@@ -142,14 +148,11 @@
 		B88D3104172E117B00FA1141 /* AndrewBarba */ = {
 			isa = PBXGroup;
 			children = (
-				B88D314B172E1D5C00FA1141 /* AB.h */,
-				B88D314C172E1D5C00FA1141 /* AB.m */,
-				B88D3121172E119100FA1141 /* Delegate */,
+				B88D3121172E119100FA1141 /* Core */,
 				B88D3123172E11BF00FA1141 /* Common */,
 				B88D312F172E143900FA1141 /* Services */,
 				B88D3134172E159300FA1141 /* Categories */,
 				B88D3130172E145600FA1141 /* Views */,
-				B88D314E172E285600FA1141 /* Images */,
 				B88D3105172E117B00FA1141 /* Supporting Files */,
 			);
 			path = AndrewBarba;
@@ -158,36 +161,24 @@
 		B88D3105172E117B00FA1141 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B88D3161172E2A0900FA1141 /* Default-568h@2x.png */,
-				B88D315F172E29CF00FA1141 /* Default.png */,
-				B88D315D172E299B00FA1141 /* Default@2x.png */,
+				B88D314E172E285600FA1141 /* Images */,
 				B88D3106172E117B00FA1141 /* AndrewBarba-Info.plist */,
 				B88D3107172E117B00FA1141 /* InfoPlist.strings */,
 				B88D310A172E117B00FA1141 /* main.m */,
 				B88D310C172E117B00FA1141 /* AndrewBarba-Prefix.pch */,
-				B88D3110172E117B00FA1141 /* Default.png */,
-				B88D3112172E117B00FA1141 /* Default@2x.png */,
-				B88D3114172E117B00FA1141 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B88D3121172E119100FA1141 /* Delegate */ = {
+		B88D3121172E119100FA1141 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				B88D314B172E1D5C00FA1141 /* AB.h */,
+				B88D314C172E1D5C00FA1141 /* AB.m */,
 				B88D310D172E117B00FA1141 /* ABAppDelegate.h */,
 				B88D310E172E117B00FA1141 /* ABAppDelegate.m */,
 			);
-			name = Delegate;
-			sourceTree = "<group>";
-		};
-		B88D3122172E11B000FA1141 /* Welcome */ = {
-			isa = PBXGroup;
-			children = (
-				B88D313A172E173F00FA1141 /* ABWelcomeViewController.h */,
-				B88D313B172E173F00FA1141 /* ABWelcomeViewController.m */,
-			);
-			name = Welcome;
+			name = Core;
 			sourceTree = "<group>";
 		};
 		B88D3123172E11BF00FA1141 /* Common */ = {
@@ -228,8 +219,8 @@
 			isa = PBXGroup;
 			children = (
 				B88D3116172E117B00FA1141 /* MainStoryboard.storyboard */,
+				B85011B4172EC03400596A04 /* Root */,
 				B88D313D172E174B00FA1141 /* Loading */,
-				B88D3122172E11B000FA1141 /* Welcome */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -265,6 +256,9 @@
 		B88D314E172E285600FA1141 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B88D3161172E2A0900FA1141 /* Default-568h@2x.png */,
+				B88D315F172E29CF00FA1141 /* Default.png */,
+				B88D315D172E299B00FA1141 /* Default@2x.png */,
 				B88D314F172E290E00FA1141 /* 1.png */,
 				B88D3150172E290E00FA1141 /* 2.png */,
 				B88D3151172E290E00FA1141 /* 3.png */,
@@ -329,7 +323,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B88D3109172E117B00FA1141 /* InfoPlist.strings in Resources */,
-				B88D3111172E117B00FA1141 /* Default.png in Resources */,
 				B88D3118172E117B00FA1141 /* MainStoryboard.storyboard in Resources */,
 				B88D3156172E290E00FA1141 /* 1.png in Resources */,
 				B88D3157172E290E00FA1141 /* 2.png in Resources */,
@@ -340,6 +333,7 @@
 				B88D315C172E290E00FA1141 /* 7.png in Resources */,
 				B88D315E172E299B00FA1141 /* Default@2x.png in Resources */,
 				B88D3162172E2A0900FA1141 /* Default-568h@2x.png in Resources */,
+				B85011B8172EC2C100596A04 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,11 +349,11 @@
 				B88D312E172E12DE00FA1141 /* ABViewController.m in Sources */,
 				B88D3133172E147300FA1141 /* ABUIService.m in Sources */,
 				B88D3137172E160800FA1141 /* UIView+AB.m in Sources */,
-				B88D313C172E173F00FA1141 /* ABWelcomeViewController.m in Sources */,
 				B88D3140172E176000FA1141 /* ABLoadingViewController.m in Sources */,
 				B88D3144172E180B00FA1141 /* ABLoadingImageView.m in Sources */,
 				B88D314D172E1D5C00FA1141 /* AB.m in Sources */,
 				B85011B3172EB7C700596A04 /* ABTrackingService.m in Sources */,
+				B85011B7172EC05400596A04 /* ABRootTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

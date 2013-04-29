@@ -25,6 +25,12 @@
     return self;
 }
 
+- (id)viewControllerWithStoryboardIdentifier:(NSString *)identifier
+{
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    return [storyboard instantiateViewControllerWithIdentifier:identifier];
+}
+
 
 /**
  * Return the shared instance, create one if it doesn't exist.

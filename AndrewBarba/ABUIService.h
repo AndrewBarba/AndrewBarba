@@ -12,4 +12,6 @@
 
 + (ABUIService *)sharedInstance;
 
+- (id)viewControllerWithStoryboardIdentifier:(NSString *)identifier;
+
 @end

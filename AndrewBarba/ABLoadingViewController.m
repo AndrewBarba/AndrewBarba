@@ -20,6 +20,7 @@
 {
     [super viewDidLoad];
 	self.title = @"Loading";
+    self.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -29,6 +30,7 @@
         [self animatePictures:^{
             [self trackEvent:@"Loading Animation Complete" withValue:nil];
             [self.pictureContainerView removeFromSuperview];
+            [self dismissViewControllerAnimated:YES completion:nil];
         }];
     });
 }
@@ -54,6 +56,11 @@
             });
         }
     }
+}
+
+- (void)dealloc
+{
+    self.pictureContainerView = nil;
 }
 
 @end
