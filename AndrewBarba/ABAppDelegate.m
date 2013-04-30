@@ -27,6 +27,7 @@
 {
     [ABTrackingService sharedInstance];
     [ABUIService sharedInstance];
+    [ABDataService sharedInstance];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

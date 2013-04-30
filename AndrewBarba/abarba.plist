@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>education</key>
+	<array>
+		<dict>
+			<key>university</key>
+			<string>Northeastern</string>
+			<key>location</key>
+			<string>Boston, MA</string>
+			<key>year</key>
+			<string>Sophomore</string>
+			<key>grad_year</key>
+			<string>2016</string>
+			<key>major</key>
+			<string>Computer Science</string>
+			<key>gpa</key>
+			<real>3.5</real>
+			<key>courses</key>
+			<array>
+				<string>Object Oriented Design</string>
+				<string>Computer Organization</string>
+				<string>Logic and Computation</string>
+				<string>Discrete Structures</string>
+				<string>Fundamentals of Computer Science</string>
+			</array>
+		</dict>
+	</array>
+	<key>experience</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Happier</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>WhatsApp</string>
+		</dict>
+	</array>
+	<key>projects</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>joox.fm</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SwipeLight</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Magnifying Glass+</string>
+		</dict>
+	</array>
+</dict>
+</plist>

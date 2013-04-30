@@ -20,7 +20,7 @@
 {
     [super viewDidLoad];
 	self.title = @"Loading";
-    self.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    self.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -47,7 +47,7 @@
         ABLoadingImageView *view = self.pictureContainerView.subviews[index];
         if (index == count - 1) {
             [view animateOffScreen:^{
-                ABDispatchAfter(0.3, block);
+                ABDispatchAfter(0.5, block);
             }];
         } else {
             [view animateOffScreen:nil];

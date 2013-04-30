@@ -14,6 +14,21 @@
 
 @implementation ABRootTabBarController
 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    [self setSelectedIndex:1];
+    
+    UITabBarItem *education = self.tabBar.items[0];
+    [education setFinishedSelectedImage:[UIImage imageNamed:@"book_sel"] withFinishedUnselectedImage:[UIImage imageNamed:@"book"]];
+    
+    UITabBarItem *experience = self.tabBar.items[1];
+    [experience setFinishedSelectedImage:[UIImage imageNamed:@"globe_sel"] withFinishedUnselectedImage:[UIImage imageNamed:@"globe"]];
+    
+    UITabBarItem *projects = self.tabBar.items[2];
+    [projects setFinishedSelectedImage:[UIImage imageNamed:@"gear_sel"] withFinishedUnselectedImage:[UIImage imageNamed:@"gear"]];
+}
+
 - (void)viewDidLayoutSubviews
 {
     [super viewDidLayoutSubviews];

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="N8N-bM-n40">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="1ra-u8-ipN">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -135,56 +135,220 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-305" y="-297"/>
+            <point key="canvasLocation" x="241" y="-223"/>
         </scene>
-        <!--View Controller - Item 2-->
+        <!--Experience View Controller-->
         <scene sceneID="Ngp-RY-SCv">
             <objects>
-                <viewController id="DXD-uo-Tzv" sceneMemberID="viewController">
+                <viewController id="DXD-uo-Tzv" customClass="ABExperienceViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="emx-uP-duS">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="435"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="qYA-c9-fXS"/>
+                    <navigationItem key="navigationItem" id="KWU-T5-6C5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="17m-4G-Jml" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="199" y="552"/>
+            <point key="canvasLocation" x="1271" y="626"/>
         </scene>
-        <!--View Controller - Item 1-->
-        <scene sceneID="GTy-ub-ZLP">
+        <!--Root View Controller-->
+        <scene sceneID="BVP-mq-EPO">
             <objects>
-                <viewController id="N7L-de-Kux" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="QIn-1b-1GL">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                <viewController id="1ra-u8-ipN" customClass="ABRootViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Aj5-gl-uOG">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <containerView contentMode="scaleToFill" id="xkv-bQ-oZY">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <connections>
+                                    <segue destination="N8N-bM-n40" kind="embed" id="RXh-kU-fbg"/>
+                                </connections>
+                            </containerView>
+                            <view contentMode="scaleToFill" id="suc-EC-hgg" customClass="ABMeView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="UJp-8w-oDa">
+                                        <rect key="frame" x="10" y="80" width="300" height="458"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" editable="NO" id="vdV-FJ-t2r">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="458"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <mutableString key="text">Hey Apple!
+
+My name is Andrew Barba. I just turned 20 years old and I attend Northeastern Univeristy.
+
+First I just want to thank you guys for taking the time to review my app and consider me for a chance to attend this years WWDC. It would be an absolute honor to attend and learn first hand what the next versions of iOS and OSX will bring to the table. 
+
+I put a lot of thought and effort into this small app and I hope it shows. Developing with Apple technologies has always been a blast. Animations are fun, multithreading is easy (well, easier 😋) and the devices the software runs on are the best in the business. Can't ask for much more than that.
+
+With that said, take a look around and learn about the different things I've done since becoming an Apple developer.
+
+Enjoy!  </mutableString>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96295041454081631" green="0.96295041454081631" blue="0.96295041454081631" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.70000000000000007" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="contentView" destination="UJp-8w-oDa" id="pmu-B7-m4B"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="vFM-0q-4LK" customClass="ABMeIconView">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="me.png" id="Wfj-xL-0cS">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MiM-cx-fbd">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="button" destination="MiM-cx-fbd" id="hTG-85-BV4"/>
+                                    <outlet property="imageView" destination="Wfj-xL-0cS" id="Mg1-JE-qbW"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="meIconView" destination="vFM-0q-4LK" id="xWe-b1-ZHx"/>
+                        <outlet property="meView" destination="suc-EC-hgg" id="s2X-Rz-Lyx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jbd-Bf-Azb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-154" y="446"/>
+        </scene>
+        <!--Projects View Controller-->
+        <scene sceneID="hON-F7-ZJv">
+            <objects>
+                <viewController id="gMp-yC-lP0" customClass="ABProjectsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tG3-he-Wlc">
+                        <rect key="frame" x="0.0" y="64" width="320" height="435"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="gK4-h5-Df9"/>
+                    <navigationItem key="navigationItem" id="nOb-ts-YCj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="44F-Gt-xci" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1271" y="1308"/>
+        </scene>
+        <!--Education View Controller-->
+        <scene sceneID="GTy-ub-ZLP">
+            <objects>
+                <viewController id="N7L-de-Kux" customClass="ABEducationViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QIn-1b-1GL">
+                        <rect key="frame" x="0.0" y="64" width="320" height="435"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fpS-UR-TmJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aZP-Yk-Q1T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="199" y="-120"/>
+            <point key="canvasLocation" x="1271" y="-70"/>
         </scene>
         <!--Root Tab Bar Controller-->
         <scene sceneID="QMc-ef-uE8">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="N8N-bM-n40" customClass="ABRootTabBarController" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="F1u-QG-c8Q">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="N7L-de-Kux" kind="relationship" relationship="viewControllers" id="h6D-Wy-OXv"/>
-                        <segue destination="DXD-uo-Tzv" kind="relationship" relationship="viewControllers" id="wbR-30-lWj"/>
+                        <segue destination="k97-v7-ShA" kind="relationship" relationship="viewControllers" id="h6D-Wy-OXv"/>
+                        <segue destination="Wem-dN-HGH" kind="relationship" relationship="viewControllers" id="wbR-30-lWj"/>
+                        <segue destination="hqw-iJ-cim" kind="relationship" relationship="viewControllers" id="SLi-bz-MK9"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rhf-NC-6xf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-305" y="372"/>
+            <point key="canvasLocation" x="241" y="446"/>
+        </scene>
+        <!--Navigation Controller - Education-->
+        <scene sceneID="UOV-D0-jXs">
+            <objects>
+                <navigationController id="k97-v7-ShA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Education" id="gK4-h5-Df9"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4O3-c3-11h">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="N7L-de-Kux" kind="relationship" relationship="rootViewController" id="7C8-TY-rPV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bFO-Uc-ycX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="745" y="-70"/>
+        </scene>
+        <!--Navigation Controller - Projects-->
+        <scene sceneID="Zrr-KA-tUJ">
+            <objects>
+                <navigationController id="hqw-iJ-cim" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Projects" id="1iQ-ce-coT"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0Ag-Gp-U8P">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gMp-yC-lP0" kind="relationship" relationship="rootViewController" id="bnD-ZT-Rca"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZSU-Vl-NOj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="745" y="1308"/>
+        </scene>
+        <!--Navigation Controller - Experience-->
+        <scene sceneID="iIO-xI-HJG">
+            <objects>
+                <navigationController id="Wem-dN-HGH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Experience" id="qYA-c9-fXS"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cZO-bT-Dxr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="DXD-uo-Tzv" kind="relationship" relationship="rootViewController" id="17x-ZI-f6B"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rUm-cn-axA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="745" y="626"/>
         </scene>
     </scenes>
     <resources>
@@ -195,8 +359,15 @@
         <image name="5.png" width="402" height="402"/>
         <image name="6.png" width="1170" height="200"/>
         <image name="7.png" width="615" height="380"/>
+        <image name="me.png" width="80" height="80"/>
     </resources>
     <classes>
+        <class className="ABEducationViewController" superclassName="ABViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ABEducationViewController.h"/>
+        </class>
+        <class className="ABExperienceViewController" superclassName="ABViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ABExperienceViewController.h"/>
+        </class>
         <class className="ABLoadingImageView" superclassName="UIView">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ABLoadingImageView.h"/>
             <relationships>
@@ -210,8 +381,31 @@
                 <relationship kind="outlet" name="pictureContainerView" candidateClass="UIView"/>
             </relationships>
         </class>
+        <class className="ABMeIconView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ABMeIconView.h"/>
+            <relationships>
+                <relationship kind="outlet" name="button" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="ABMeView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ABMeView.h"/>
+            <relationships>
+                <relationship kind="outlet" name="contentView" candidateClass="UIView"/>
+            </relationships>
+        </class>
+        <class className="ABProjectsViewController" superclassName="ABViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ABProjectsViewController.h"/>
+        </class>
         <class className="ABRootTabBarController" superclassName="UITabBarController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ABRootTabBarController.h"/>
+        </class>
+        <class className="ABRootViewController" superclassName="ABViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ABRootViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="meIconView" candidateClass="ABMeIconView"/>
+                <relationship kind="outlet" name="meView" candidateClass="UIView"/>
+            </relationships>
         </class>
         <class className="ABViewController" superclassName="GAITrackedViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ABViewController.h"/>
