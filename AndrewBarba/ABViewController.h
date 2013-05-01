@@ -21,9 +21,4 @@
 - (void)disableSwipeNavigation;
 - (void)enableSwipeNavigation;
 
-/**
- *  Finds the first scrollView in the controllers main view and scrolls it to the top
- */
-- (void)scrollToTop;
-
 @end

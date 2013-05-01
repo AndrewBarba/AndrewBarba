@@ -41,4 +41,11 @@
     [self presentViewController:loading animated:NO completion:nil];
 }
 
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item
+{
+    if (self.tabBar.selectedItem == item) {
+        [[self selectedViewController] popAndScroll];
+    }
+}
+
 @end

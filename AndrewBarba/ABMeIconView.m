@@ -33,6 +33,7 @@
     self.layer.shadowRadius = 2.0;
     self.layer.shouldRasterize = YES;
     self.layer.rasterizationScale = [UIScreen mainScreen].scale;
+    self.layer.shadowPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds cornerRadius:self.bounds.size.height/2].CGPath;
     
     self.layer.cornerRadius = self.frame.size.width / 2;
     self.imageView.layer.cornerRadius = self.layer.cornerRadius;

@@ -32,7 +32,7 @@
 
 - (id)dataForKey:(NSString *)key
 {
-    return [self.data objectForKey:key];
+    return [[self.data objectForKey:key] mutableCopy];
 }
 
 + (ABDataService *)sharedInstance

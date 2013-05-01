@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>university</key>
-			<string>Northeastern</string>
+			<string>Northeastern University</string>
 			<key>location</key>
 			<string>Boston, MA</string>
 			<key>year</key>
@@ -17,13 +17,42 @@
 			<string>Computer Science</string>
 			<key>gpa</key>
 			<real>3.5</real>
+			<key>media_url</key>
+			<string>http://www.ccs.neu.edu/wp-content/uploads/NU-CCIS-10.mp4.mp4</string>
+			<key>media_image</key>
+			<string>northeastern</string>
 			<key>courses</key>
 			<array>
-				<string>Object Oriented Design</string>
-				<string>Computer Organization</string>
-				<string>Logic and Computation</string>
-				<string>Discrete Structures</string>
-				<string>Fundamentals of Computer Science</string>
+				<dict>
+					<key>name</key>
+					<string>Object Oriented Design</string>
+					<key>professor</key>
+					<string>Viera Proulx</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Computer Organization</string>
+					<key>professor</key>
+					<string>William Clinger</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Logic and Computation</string>
+					<key>professor</key>
+					<string>Thomas Whal</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Fundamentals of Computer Science</string>
+					<key>professor</key>
+					<string>Amal Ahmed</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Discrete Structures</string>
+					<key>professor</key>
+					<string>Ravi Sundaram</string>
+				</dict>
 			</array>
 		</dict>
 	</array>
@@ -43,14 +72,44 @@
 		<dict>
 			<key>name</key>
 			<string>joox.fm</string>
+			<key>date</key>
+			<string>October 2013</string>
+			<key>app_id</key>
+			<string>547877331</string>
+			<key>description</key>
+			<string>Joox.fm is your personal jukebox populated with music from people you care about. We&apos;re here to make music social again. Whether you&apos;re looking for new tracks or ready to share your favorite songs with others, joox.fm provides the ultimate music sharing experience. </string>
+			<key>downloads</key>
+			<string>654</string>
+			<key>icon</key>
+			<string>joox</string>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>SwipeLight</string>
+			<key>date</key>
+			<string>January 2012</string>
+			<key>app_id</key>
+			<string>491247768</string>
+			<key>description</key>
+			<string>Swipe Light is the easiest and quickest Flashlight App on the app store. There are no buttons, no settings, and no Ads... Launch the app and the Light instantly turns on. Swipe up or down to toggle the light and swipe right or left to increase or decrease strobe speed. Its that simple. The light stays on when viewing notifications in Notification Center and instantly turns on and off when switching from app to app. This is the way Flashlight apps were meant to be. </string>
+			<key>downloads</key>
+			<string>10,281</string>
+			<key>icon</key>
+			<string>swipelight</string>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Magnifying Glass+</string>
+			<key>date</key>
+			<string>February 2013</string>
+			<key>app_id</key>
+			<string>498559906</string>
+			<key>description</key>
+			<string>This app uses your iOS Device&apos;s built in camera and processing technology to create a magnified real time image of whatever is in sight. This Magnifying glass is great in low light restaurant settings where you need a light and magnified view of the menu for easier reading. </string>
+			<key>downloads</key>
+			<string>6,077</string>
+			<key>icon</key>
+			<string>mg</string>
 		</dict>
 	</array>
 </dict>

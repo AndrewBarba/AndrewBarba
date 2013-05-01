@@ -54,9 +54,9 @@
     
     // Set initial state
     CGRect frame = self.meIconView.frame;
-    frame.origin = _topLeftOrigin;
+    frame.origin = _topRightOrigin;
     self.meIconView.frame = frame;
-    _lastOrigin = _topLeftOrigin;
+    _lastOrigin = frame.origin;
 }
 
 - (void)_setupGesture

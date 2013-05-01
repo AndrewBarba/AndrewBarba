@@ -62,19 +62,4 @@
     if (_shouldUseSwipeNavigation) [self.navigationController popViewControllerAnimated:YES];
 }
 
-#pragma mark - Scrolling
-
-- (void)scrollToTop
-{
-    for (UIView *view in self.view.subviews) {
-        if ([view isKindOfClass:[UIScrollView class]]) {
-            UIScrollView* scrollView = (UIScrollView*)view;
-            if (scrollView.scrollEnabled && scrollView.scrollsToTop) {
-                [scrollView setContentOffset:CGPointZero animated:YES];
-                return;
-            }
-        }
-    }
-}
-
 @end
