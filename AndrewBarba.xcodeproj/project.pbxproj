@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B840EAAE1731F1C3008C860D /* ABRequestService.m in Sources */ = {isa = PBXBuildFile; fileRef = B840EAAD1731F1C3008C860D /* ABRequestService.m */; };
+		B840EAB01731F771008C860D /* happier_badge.png in Resources */ = {isa = PBXBuildFile; fileRef = B840EAAF1731F771008C860D /* happier_badge.png */; };
+		B840EAB21731FAC5008C860D /* happier_quote.png in Resources */ = {isa = PBXBuildFile; fileRef = B840EAB11731FAC5008C860D /* happier_quote.png */; };
+		B840EAB81731FFB1008C860D /* hp1.png in Resources */ = {isa = PBXBuildFile; fileRef = B840EAB31731FFB0008C860D /* hp1.png */; };
+		B840EAB91731FFB1008C860D /* hp2.png in Resources */ = {isa = PBXBuildFile; fileRef = B840EAB41731FFB0008C860D /* hp2.png */; };
+		B840EABA1731FFB1008C860D /* hp3.png in Resources */ = {isa = PBXBuildFile; fileRef = B840EAB51731FFB0008C860D /* hp3.png */; };
+		B840EABB1731FFB1008C860D /* hp4.png in Resources */ = {isa = PBXBuildFile; fileRef = B840EAB61731FFB1008C860D /* hp4.png */; };
+		B840EABC1731FFB1008C860D /* hp5.png in Resources */ = {isa = PBXBuildFile; fileRef = B840EAB71731FFB1008C860D /* hp5.png */; };
+		B840EABE1732026C008C860D /* hpinsta.png in Resources */ = {isa = PBXBuildFile; fileRef = B840EABD1732026C008C860D /* hpinsta.png */; };
 		B85011B3172EB7C700596A04 /* ABTrackingService.m in Sources */ = {isa = PBXBuildFile; fileRef = B85011B2172EB7C700596A04 /* ABTrackingService.m */; };
 		B85011B7172EC05400596A04 /* ABRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B85011B6172EC05400596A04 /* ABRootTabBarController.m */; };
 		B85011B8172EC2C100596A04 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B88D315F172E29CF00FA1141 /* Default.png */; };
@@ -80,6 +89,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B840EAAC1731F1C3008C860D /* ABRequestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABRequestService.h; sourceTree = "<group>"; };
+		B840EAAD1731F1C3008C860D /* ABRequestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABRequestService.m; sourceTree = "<group>"; };
+		B840EAAF1731F771008C860D /* happier_badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happier_badge.png; sourceTree = "<group>"; };
+		B840EAB11731FAC5008C860D /* happier_quote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happier_quote.png; sourceTree = "<group>"; };
+		B840EAB31731FFB0008C860D /* hp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hp1.png; sourceTree = "<group>"; };
+		B840EAB41731FFB0008C860D /* hp2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hp2.png; sourceTree = "<group>"; };
+		B840EAB51731FFB0008C860D /* hp3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hp3.png; sourceTree = "<group>"; };
+		B840EAB61731FFB1008C860D /* hp4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hp4.png; sourceTree = "<group>"; };
+		B840EAB71731FFB1008C860D /* hp5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hp5.png; sourceTree = "<group>"; };
+		B840EABD1732026C008C860D /* hpinsta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hpinsta.png; sourceTree = "<group>"; };
 		B85011B1172EB7C700596A04 /* ABTrackingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTrackingService.h; sourceTree = "<group>"; };
 		B85011B2172EB7C700596A04 /* ABTrackingService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTrackingService.m; sourceTree = "<group>"; };
 		B85011B5172EC05400596A04 /* ABRootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABRootTabBarController.h; sourceTree = "<group>"; };
@@ -312,6 +331,8 @@
 				B85011B2172EB7C700596A04 /* ABTrackingService.m */,
 				B89A92EB172F70F6003F6D00 /* ABDataService.h */,
 				B89A92EC172F70F6003F6D00 /* ABDataService.m */,
+				B840EAAC1731F1C3008C860D /* ABRequestService.h */,
+				B840EAAD1731F1C3008C860D /* ABRequestService.m */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -362,6 +383,14 @@
 		B88D314E172E285600FA1141 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B840EAAF1731F771008C860D /* happier_badge.png */,
+				B840EABD1732026C008C860D /* hpinsta.png */,
+				B840EAB31731FFB0008C860D /* hp1.png */,
+				B840EAB41731FFB0008C860D /* hp2.png */,
+				B840EAB51731FFB0008C860D /* hp3.png */,
+				B840EAB61731FFB1008C860D /* hp4.png */,
+				B840EAB71731FFB1008C860D /* hp5.png */,
+				B840EAB11731FAC5008C860D /* happier_quote.png */,
 				B8AD51191731619C008FB235 /* joox.png */,
 				B8AD511A1731619C008FB235 /* joox@2x.png */,
 				B8AD511B1731619C008FB235 /* mg.png */,
@@ -557,6 +586,14 @@
 				B8AD51221731619C008FB235 /* mg@2x.png in Resources */,
 				B8AD51231731619C008FB235 /* swipelight.png in Resources */,
 				B8AD51241731619C008FB235 /* swipelight@2x.png in Resources */,
+				B840EAB01731F771008C860D /* happier_badge.png in Resources */,
+				B840EAB21731FAC5008C860D /* happier_quote.png in Resources */,
+				B840EAB81731FFB1008C860D /* hp1.png in Resources */,
+				B840EAB91731FFB1008C860D /* hp2.png in Resources */,
+				B840EABA1731FFB1008C860D /* hp3.png in Resources */,
+				B840EABB1731FFB1008C860D /* hp4.png in Resources */,
+				B840EABC1731FFB1008C860D /* hp5.png in Resources */,
+				B840EABE1732026C008C860D /* hpinsta.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +625,7 @@
 				B8AD510F1730C2FB008FB235 /* ABEducationVideoCell.m in Sources */,
 				B8AD51141730D047008FB235 /* UIViewController+AB.m in Sources */,
 				B8AD511817315496008FB235 /* ABProjectCell.m in Sources */,
+				B840EAAE1731F1C3008C860D /* ABRequestService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

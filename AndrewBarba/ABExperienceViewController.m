@@ -9,7 +9,7 @@
 #import "ABExperienceViewController.h"
 
 @interface ABExperienceViewController ()
-@property (nonatomic, strong) NSArray *experienceArray;
+@property (nonatomic, weak) IBOutlet UIScrollView *carouselScrollView;
 @end
 
 @implementation ABExperienceViewController
@@ -18,7 +18,13 @@
 {
     [super viewDidLoad];
 	self.title = @"Experience";
-    self.experienceArray = [[ABDataService sharedInstance] dataForKey:@"experience"];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [[ABTrackingService sharedInstance] trackEvent:@"Experience Viewed" withValue:nil fromSender:@"Root"];
+    self.carouselScrollView.contentSize = CGSizeMake(320*5, self.carouselScrollView.frame.size.height);
 }
 
 @end

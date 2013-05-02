@@ -15,6 +15,7 @@ typedef void (^ABIntegerBlock)(int number, NSError* error);
 typedef void (^ABArrayBlock)(NSArray* objects, NSError* error);
 typedef void (^ABObjectBlock)(id object, NSError* error);
 typedef void (^ABImageBlock)(UIImage* image, NSError* error);
+typedef void (^ABRequestBlock)(NSData *data,NSURLResponse *response,NSError* error);
 typedef void (^ABBlock)(void);
 
 /**

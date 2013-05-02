@@ -39,7 +39,7 @@
 					<key>name</key>
 					<string>Logic and Computation</string>
 					<key>professor</key>
-					<string>Thomas Whal</string>
+					<string>Thomas Wahl</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -54,17 +54,6 @@
 					<string>Ravi Sundaram</string>
 				</dict>
 			</array>
-		</dict>
-	</array>
-	<key>experience</key>
-	<array>
-		<dict>
-			<key>name</key>
-			<string>Happier</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>WhatsApp</string>
 		</dict>
 	</array>
 	<key>projects</key>

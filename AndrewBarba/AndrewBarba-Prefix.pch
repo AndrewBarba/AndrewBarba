@@ -16,6 +16,7 @@
     #import "ABTrackingService.h"
     #import "ABUIService.h"
     #import "ABDataService.h"
+    #import "ABRequestService.h"
     #import "UIView+AB.h"
     #import "UIViewController+AB.h"
 #endif

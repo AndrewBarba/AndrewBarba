@@ -26,7 +26,7 @@
     self = [super init];
     if (self) {
         [GAI sharedInstance].trackUncaughtExceptions = YES;
-        [GAI sharedInstance].dispatchInterval = 15;
+        [GAI sharedInstance].dispatchInterval = 10;
         self.gaiTracker = [[GAI sharedInstance] trackerWithTrackingId:@"UA-40503557-1"];
     }
     return self;

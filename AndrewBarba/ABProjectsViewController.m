@@ -77,12 +77,14 @@ static NSString *const ProjectCellIdentifier = @"Project Cell";
     ABDispatchOnMain(^{
         [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionNone animated:YES];
     });
+    [[ABTrackingService sharedInstance] trackEvent:@"Projects - Tapped Project Cell" withValue:nil fromSender:project[@"name"]];
 }
 
 - (void)projectCell:(ABProjectCell *)projectCell didTapButton:(UIButton *)button withProject:(NSDictionary *)project
 {
     NSString *path = [NSString stringWithFormat:@"https://itunes.apple.com/app/id%@",project[@"app_id"]];
     NSURL *url = [NSURL URLWithString:path];
+    [[ABTrackingService sharedInstance] trackEvent:@"Projects - Viewed App" withValue:nil fromSender:path];
     [[UIApplication sharedApplication] openURL:url];
 }
 

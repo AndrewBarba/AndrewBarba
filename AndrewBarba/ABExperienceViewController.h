@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Andrew Barba. All rights reserved.
 //
 
-#import "ABViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface ABExperienceViewController : ABViewController
+@interface ABExperienceViewController : UITableViewController
 
 @end

@@ -135,22 +135,212 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-245" y="-140"/>
+            <point key="canvasLocation" x="-758" y="-123"/>
         </scene>
-        <!--Experience View Controller-->
-        <scene sceneID="Ngp-RY-SCv">
+        <!--Experience View Controller - Happier-->
+        <scene sceneID="ywS-X9-vRK">
             <objects>
-                <viewController id="DXD-uo-Tzv" customClass="ABExperienceViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="emx-uP-duS">
-                        <rect key="frame" x="0.0" y="64" width="320" height="435"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="KWU-T5-6C5"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="17m-4G-Jml" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="fKd-c7-Pvi" customClass="ABExperienceViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="67" sectionHeaderHeight="22" sectionFooterHeight="22" id="A19-hK-MIE">
+                        <rect key="frame" x="0.0" y="64" width="320" height="2000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
+                        <sections>
+                            <tableViewSection id="1d6-9T-8nW">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="88" id="CgN-1u-g6b">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="87"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="happier_badge.png" id="XOf-Yv-Ahp">
+                                                    <rect key="frame" x="10" y="10" width="70" height="70"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Happier is a beautiful way to collect and share happy moments with friends" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0xF-Ih-FOB">
+                                                    <rect key="frame" x="88" y="10" width="220" height="66"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="166" id="hFf-uG-0DN">
+                                        <rect key="frame" x="0.0" y="88" width="320" height="166"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="165"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="happier_quote.png" id="VXP-rV-yrS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="165"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="183" id="44E-mH-UTY">
+                                        <rect key="frame" x="0.0" y="254" width="320" height="183"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="182"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="962-iS-Ptk">
+                                                    <rect key="frame" x="11" y="0.0" width="298" height="177"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">As a Northeastern student I have the unique oportunity to take three 6 month internships while attending the University. Northeastern calls these "Coops". In October I started interviewing for my first Coop and quickly found Happier when they presented at the annual Coop Expo. </string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="121" id="XT8-Me-dpn">
+                                        <rect key="frame" x="0.0" y="437" width="320" height="121"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="6.png" id="T0d-iv-Yuz">
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="145" id="XDY-Al-F3R">
+                                        <rect key="frame" x="0.0" y="558" width="320" height="145"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="144"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SGJ-FB-Ev7">
+                                                    <rect key="frame" x="11" y="0.0" width="298" height="139"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">I accepted the offer at Happier because they were offering me something that no other company would: the opportunity to build an iPhone app and work directly with their Sr. iOS Engineer.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="315" id="KJW-8I-l8w">
+                                        <rect key="frame" x="0.0" y="703" width="320" height="315"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="314"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="hpinsta.png" id="KLl-PH-QXX">
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="314"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="165" id="aXp-wO-WQb">
+                                        <rect key="frame" x="0.0" y="1018" width="320" height="165"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="164"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vDk-oa-FCL">
+                                                    <rect key="frame" x="8" y="6" width="303" height="151"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">Since joining Happier I have been a part of, and wrote code for, 3 Happier App Store releases (including the initial launch) and 3 App Store features. Happier currently has a 5 star rating in the App Store from more than 900 reviews!</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="300" id="fvZ-61-wPK">
+                                        <rect key="frame" x="0.0" y="1183" width="320" height="300"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="299"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="rfn-xg-b6B">
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="299"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="hp1.png" id="Fux-WJ-v4J">
+                                                            <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                                                        </imageView>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="hp2.png" id="Lur-iD-S3b">
+                                                            <rect key="frame" x="320" y="0.0" width="320" height="300"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                                                        </imageView>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="hp3.png" id="bg3-py-dfz">
+                                                            <rect key="frame" x="640" y="0.0" width="320" height="300"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                                                        </imageView>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="hp4.png" id="WXA-BM-0yO">
+                                                            <rect key="frame" x="960" y="0.0" width="320" height="300"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                                                        </imageView>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="hp5.png" id="x1F-Yi-nM1">
+                                                            <rect key="frame" x="1280" y="0.0" width="320" height="300"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </scrollView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="»" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ocG-ZP-3oc">
+                                                    <rect key="frame" x="281" y="137" width="29" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="40"/>
+                                                    <color key="textColor" red="0.82033242979999998" green="0.82033242979999998" blue="0.82033242979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="«" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jLg-g3-bce">
+                                                    <rect key="frame" x="10" y="137" width="29" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="40"/>
+                                                    <color key="textColor" red="0.82033242984693877" green="0.82033242984693877" blue="0.82033242984693877" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="fKd-c7-Pvi" id="moF-aA-Thr"/>
+                            <outlet property="delegate" destination="fKd-c7-Pvi" id="GIF-Eg-PMd"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Happier" id="qhE-P6-hgx"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="carouselScrollView" destination="rfn-xg-b6B" id="tss-c2-TTe"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EMp-vT-3fC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="785" y="709"/>
+            <point key="canvasLocation" x="693" y="475"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="BVP-mq-EPO">
@@ -241,7 +431,7 @@ Enjoy!  </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jbd-Bf-Azb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-640" y="529"/>
+            <point key="canvasLocation" x="-1153" y="546"/>
         </scene>
         <!--Projects View Controller-->
         <scene sceneID="hON-F7-ZJv">
@@ -347,7 +537,7 @@ Enjoy!  </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="44F-Gt-xci" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="785" y="1391"/>
+            <point key="canvasLocation" x="272" y="1408"/>
         </scene>
         <!--Education View Controller-->
         <scene sceneID="GTy-ub-ZLP">
@@ -459,7 +649,7 @@ Enjoy!  </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aZP-Yk-Q1T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="785" y="13"/>
+            <point key="canvasLocation" x="272" y="30"/>
         </scene>
         <!--Root Tab Bar Controller-->
         <scene sceneID="QMc-ef-uE8">
@@ -479,7 +669,7 @@ Enjoy!  </string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rhf-NC-6xf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-245" y="529"/>
+            <point key="canvasLocation" x="-758" y="546"/>
         </scene>
         <!--Navigation Controller - Education-->
         <scene sceneID="UOV-D0-jXs">
@@ -498,7 +688,7 @@ Enjoy!  </string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bFO-Uc-ycX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="259" y="13"/>
+            <point key="canvasLocation" x="-254" y="30"/>
         </scene>
         <!--Navigation Controller - Projects-->
         <scene sceneID="Zrr-KA-tUJ">
@@ -517,7 +707,7 @@ Enjoy!  </string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZSU-Vl-NOj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="259" y="1391"/>
+            <point key="canvasLocation" x="-254" y="1408"/>
         </scene>
         <!--Navigation Controller - Experience-->
         <scene sceneID="iIO-xI-HJG">
@@ -531,12 +721,12 @@ Enjoy!  </string>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="DXD-uo-Tzv" kind="relationship" relationship="rootViewController" id="17x-ZI-f6B"/>
+                        <segue destination="fKd-c7-Pvi" kind="relationship" relationship="rootViewController" id="KRK-g8-iQ8"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rUm-cn-axA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="259" y="709"/>
+            <point key="canvasLocation" x="-254" y="726"/>
         </scene>
     </scenes>
     <resources>
@@ -547,6 +737,14 @@ Enjoy!  </string>
         <image name="5.png" width="402" height="402"/>
         <image name="6.png" width="1170" height="200"/>
         <image name="7.png" width="615" height="380"/>
+        <image name="happier_badge.png" width="216" height="216"/>
+        <image name="happier_quote.png" width="640" height="330"/>
+        <image name="hp1.png" width="640" height="920"/>
+        <image name="hp2.png" width="640" height="920"/>
+        <image name="hp3.png" width="640" height="920"/>
+        <image name="hp4.png" width="640" height="920"/>
+        <image name="hp5.png" width="640" height="920"/>
+        <image name="hpinsta.png" width="428" height="428"/>
         <image name="me.png" width="80" height="80"/>
     </resources>
     <classes>
@@ -569,8 +767,11 @@ Enjoy!  </string>
                 <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
             </relationships>
         </class>
-        <class className="ABExperienceViewController" superclassName="ABViewController">
+        <class className="ABExperienceViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ABExperienceViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="carouselScrollView" candidateClass="UIScrollView"/>
+            </relationships>
         </class>
         <class className="ABLoadingImageView" superclassName="UIView">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ABLoadingImageView.h"/>

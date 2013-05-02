@@ -23,6 +23,14 @@
         return;
     }
     
+    if ([self.view isKindOfClass:[UIScrollView class]]) {
+        UIScrollView *s = (UIScrollView *)self.view;
+        if (s.scrollsToTop && s.scrollEnabled) {
+            [s setContentOffset:CGPointZero animated:YES];
+        }
+        return; 
+    }
+    
     for (UIView *view in self.view.subviews) {
         if ([view isKindOfClass:[UIScrollView class]]) {
             UIScrollView *s = (UIScrollView *)view;
